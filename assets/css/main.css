@@ -2167,7 +2167,6 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		margin: 0;
 		background-image: url("images/overlay.png"), url("../../images/header.jpg");
 		background-size: auto, cover;
 		background-position: top left, center center;
@@ -2175,21 +2174,26 @@ input, select, textarea {
 		padding: 14em 0 14em 0;
 		text-align: center;
 		color: #fff;
+		
 	}
 
 		#header header h1 {
-			font-size: 2.25em;
+			font-size: 3em;
 			line-height: 1.25em;
-			margin-bottom: 0;
+			margin:0 4em 0 4em;
+			background:rgba(0, 0, 0, .5);
+			padding:.5em .5em 0 .5em;
+
 		}
 
 		#header header p {
-			margin-top: 1.25em;
 			font-weight: 100;
-			padding: 0;
-			font-size: 1.25em;
+			font-size: 1.5em;
 			line-height: 1.5em;
 			text-align: center;
+			background:rgba(0, 0, 0, .5);
+			padding:2em;
+			margin:0 8em 0 8em;
 		}
 
 		#header footer {
@@ -2239,11 +2243,11 @@ input, select, textarea {
 			}
 
 			.main > .content.style2 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg,#441151, #883677, #EE85B5);
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg,#F4671A, #FF9D00 ,#FFA55B);
 			}
 
 			.main > .content.style3 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #8ED653, #419C4D, #1F663B);
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg,#003249,#007EA7, #8BD2DA);
 			}
 
 			.main > .content.style4 {
@@ -2359,8 +2363,14 @@ input, select, textarea {
 				padding: 8em 2em 8em 2em;
 			}
 
+			#header header h1{
+				font-size: 2.5em;
+				margin:0;
+			}
+
 				#header header p {
-					margin-top: 1em;
+					margin:0;
+					font-size:1em;
 				}
 
 				#header footer {
@@ -2458,6 +2468,7 @@ input, select, textarea {
 
 			#header {
 				padding: 6em 20px 6em 20px;
+			
 			}
 
 				#header > header {
