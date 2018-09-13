@@ -1,6 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic");
-
+@import url('https://fonts.googleapis.com/css?family=Amaranth');
 /*
 	Tessellate by HTML5 UP
 	html5up.net | @ajlkn
@@ -95,6 +95,17 @@ input, select, textarea {
 		color: #888;
 		-webkit-text-stroke: 0.1px;
 	}
+
+	/*Brandladder font change*/
+
+	#BrandLadder{
+		font-family: Amaranth;
+		color: #1789af;
+	}
+	.orange{
+		color:#ffb216;
+	}
+
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -2181,7 +2192,7 @@ input, select, textarea {
 			font-size: 3em;
 			line-height: 1.25em;
 			margin:0 4em 0 4em;
-			background:rgba(0, 0, 0, .5);
+			background:rgba(0, 0, 0, .65);
 			padding:.5em .5em 0 .5em;
 
 		}
@@ -2191,7 +2202,7 @@ input, select, textarea {
 			font-size: 1.5em;
 			line-height: 1.5em;
 			text-align: center;
-			background:rgba(0, 0, 0, .5);
+			background:rgba(0, 0, 0, .65);
 			padding:2em;
 			margin:0 8em 0 8em;
 		}
